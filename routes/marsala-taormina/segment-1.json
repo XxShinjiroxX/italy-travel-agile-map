@@ -1,0 +1,1 @@
+{"segment_id":"MARS-TAOR-SEG1","transport_type":"mixed","distance_km":308,"best_option":{"type":"bus","route":"Marsala → Palermo → Catania → Taormina","duration_min":431,"price_eur":21,"changes":2},"train_alternative":{"route":"Marsala → Palermo → Messina → Taormina","operator":"Trenitalia","duration_min":566,"changes":3,"price_eur":28,"note":"Bus much faster"}}
