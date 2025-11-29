@@ -1,0 +1,1 @@
+{"segment_id":"MARS-PALE-SEG1","operator":"Trenitalia Regionale","distance_km":88,"duration_min":"162-308","trains_per_day":10,"changes":1,"via_stations":["Trapani","Piraineto"],"schedule":[{"dep":"06:24","arr":"09:09","dur":"2h45min","fast":true},{"dep":"11:25","arr":"14:09","dur":"2h44min"},{"dep":"14:15","arr":"17:29","dur":"3h14min"}],"price_from":12.60}
