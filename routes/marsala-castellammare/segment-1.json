@@ -1,0 +1,1 @@
+{"segment_id":"MARS-CAST-SEG1","operator":"Trenitalia Regionale","distance_km":68,"duration_min":"99-164","trains_per_day":5,"direct":true,"schedule":[{"dep":"various","arr":"various","dur":"1h39min avg"}],"price_from":8.00,"alternative":{"type":"bus","duration_min":186,"price_eur":11,"operator":"Russo + Salemi via Palermo","note":"Train faster than bus"}}
