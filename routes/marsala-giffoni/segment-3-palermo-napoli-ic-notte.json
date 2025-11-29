@@ -1,0 +1,151 @@
+{
+  "segment_id": "SEG-003",
+  "segment_name": "Palermo → Napoli/Salerno (Intercity Notte)",
+  "transport_type": "train_overnight",
+  "operator": "Trenitalia Intercity Notte",
+  "validation": {
+    "sources": [
+      "trenitalia.com",
+      "omio.it",
+      "thetrainline.com",
+      "e656.net",
+      "rail.cc"
+    ],
+    "confidence": "very_high",
+    "last_verified": "2025-11-29"
+  },
+  "route_details": {
+    "distance_km": 312,
+    "duration_hours": "10-11",
+    "frequency": "daily",
+    "trains_per_day": 1,
+    "direct": true,
+    "includes_ferry": true,
+    "ferry_route": "Messina → Villa San Giovanni"
+  },
+  "train_service": {
+    "train_number": "ICN 1958",
+    "departure_time": "19:25",
+    "arrival_napoli": "06:22",
+    "arrival_salerno": "05:17",
+    "overnight": true
+  },
+  "stops": [
+    {
+      "order": 1,
+      "station": "Palermo Centrale",
+      "departure": "19:25",
+      "type": "origin"
+    },
+    {
+      "order": 2,
+      "station": "Termini Imerese",
+      "type": "intermediate"
+    },
+    {
+      "order": 3,
+      "station": "Cefalù",
+      "type": "intermediate"
+    },
+    {
+      "order": 4,
+      "station": "S. Agata di Militello",
+      "type": "intermediate"
+    },
+    {
+      "order": 5,
+      "station": "Capo d'Orlando",
+      "type": "intermediate"
+    },
+    {
+      "order": 6,
+      "station": "Barcellona",
+      "type": "intermediate"
+    },
+    {
+      "order": 7,
+      "station": "Patti",
+      "type": "intermediate"
+    },
+    {
+      "order": 8,
+      "station": "Milazzo",
+      "type": "intermediate"
+    },
+    {
+      "order": 9,
+      "station": "Messina Centrale",
+      "type": "intermediate"
+    },
+    {
+      "order": 10,
+      "station": "Messina Marittima",
+      "type": "ferry_boarding",
+      "note": "Train boards ferry"
+    },
+    {
+      "order": 11,
+      "station": "STRETTO DI MESSINA (Ferry)",
+      "type": "ferry",
+      "duration_min": 20,
+      "operator": "Caronte & Tourist / Blu Ferries"
+    },
+    {
+      "order": 12,
+      "station": "Villa San Giovanni Marittima",
+      "type": "ferry_disembark",
+      "note": "Train exits ferry"
+    },
+    {
+      "order": 13,
+      "station": "Villa San Giovanni",
+      "type": "intermediate"
+    },
+    {
+      "order": 14,
+      "station": "Lamezia Terme Centrale",
+      "type": "intermediate"
+    },
+    {
+      "order": 15,
+      "station": "Paola",
+      "type": "intermediate"
+    },
+    {
+      "order": 16,
+      "station": "Sapri",
+      "type": "intermediate"
+    },
+    {
+      "order": 17,
+      "station": "Salerno",
+      "arrival": "05:17",
+      "type": "destination_option_1"
+    },
+    {
+      "order": 18,
+      "station": "Napoli Centrale",
+      "arrival": "06:22",
+      "type": "destination_option_2"
+    }
+  ],
+  "accommodations": [
+    {
+      "type": "cuccetta",
+      "description": "6-bed couchette compartment",
+      "price_from": 25
+    },
+    {
+      "type": "posto_a_sedere",
+      "description": "Reclining seat",
+      "price_from": 19
+    }
+  ],
+  "pricing": {
+    "currency": "EUR",
+    "price_from": 28.00,
+    "price_avg": 45.00,
+    "ferry_included": true
+  },
+  "recommendation": "HIGHLY RECOMMENDED - Best overnight option, includes ferry, arrives early morning"
+}

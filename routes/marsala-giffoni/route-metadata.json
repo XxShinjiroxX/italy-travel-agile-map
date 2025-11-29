@@ -1,0 +1,22 @@
+{
+  "route_id": "MARS-GIFF-001",
+  "route_name": "Marsala → Giffoni Sei Casali",
+  "version": "1.0.0",
+  "last_updated": "2025-11-29",
+  "validation_status": "verified",
+  "sources_count": 15,
+  "destination": {
+    "name": "Studio Dentistico Dott. Sante Vassallo",
+    "address": "Via Serroni 115, 84090 Giffoni Sei Casali (SA)",
+    "phone": ["+39 327 548 9081", "+39 389 005 9622"],
+    "coordinates": {
+      "latitude": 40.7234,
+      "longitude": 14.9821
+    }
+  },
+  "total_duration_hours": "15-18",
+  "journey_segments": 5,
+  "transport_modes": ["train", "ferry", "bus"],
+  "complexity": "high",
+  "reliability_score": 0.92
+}

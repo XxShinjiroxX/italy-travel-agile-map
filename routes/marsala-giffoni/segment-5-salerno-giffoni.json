@@ -1,0 +1,115 @@
+{
+  "segment_id": "SEG-005",
+  "segment_name": "Salerno → Giffoni Sei Casali",
+  "transport_type": "bus",
+  "operator": "SITA Sud Trasporti",
+  "validation": {
+    "sources": [
+      "sitasudtrasporti.it",
+      "moovitapp.com",
+      "rome2rio.com",
+      "salernoturistica.it"
+    ],
+    "confidence": "high",
+    "last_verified": "2025-11-29",
+    "warning": "Limited schedule - verify before travel"
+  },
+  "route_details": {
+    "line_number": "5170",
+    "distance_km": 18,
+    "duration_min": "30-45",
+    "frequency": "limited",
+    "buses_per_day": "6-8"
+  },
+  "stops": [
+    {
+      "order": 1,
+      "stop": "Salerno - Autostazione Via Vinciprova",
+      "type": "departure",
+      "coordinates": {"lat": 40.6824, "lon": 14.7681}
+    },
+    {
+      "order": 2,
+      "stop": "Salerno - Piazza del Popolo",
+      "type": "intermediate"
+    },
+    {
+      "order": 3,
+      "stop": "Salerno - Fuorni",
+      "type": "intermediate"
+    },
+    {
+      "order": 4,
+      "stop": "Bivio Campigliano",
+      "type": "intermediate"
+    },
+    {
+      "order": 5,
+      "stop": "Capitignano",
+      "type": "intermediate"
+    },
+    {
+      "order": 6,
+      "stop": "Via Serroni, 111 Capitignano",
+      "type": "nearest_to_destination",
+      "coordinates": {"lat": 40.7232, "lon": 14.9819},
+      "distance_to_destination_m": 255,
+      "walk_time_min": 4,
+      "note": "FERMATA PIÙ VICINA - 255m / 4 min a piedi da Via Serroni 115"
+    },
+    {
+      "order": 7,
+      "stop": "Prepezzano",
+      "type": "intermediate"
+    },
+    {
+      "order": 8,
+      "stop": "Sieti",
+      "type": "intermediate"
+    },
+    {
+      "order": 9,
+      "stop": "Giffoni Sei Casali - Centro",
+      "type": "terminus"
+    }
+  ],
+  "schedule": {
+    "weekdays": {
+      "salerno_to_giffoni": [
+        {"departure": "06:40", "type": "feriale"},
+        {"departure": "08:00", "type": "feriale"},
+        {"departure": "10:30", "type": "feriale"},
+        {"departure": "13:00", "type": "feriale"},
+        {"departure": "14:30", "type": "feriale"},
+        {"departure": "17:00", "type": "feriale", "note": "ultima corsa"}
+      ],
+      "giffoni_to_salerno": [
+        {"departure": "07:10", "type": "feriale"},
+        {"departure": "08:45", "type": "feriale"},
+        {"departure": "11:10", "type": "feriale"},
+        {"departure": "13:45", "type": "feriale"},
+        {"departure": "15:15", "type": "feriale"},
+        {"departure": "17:40", "type": "feriale", "note": "ultima corsa"}
+      ]
+    },
+    "schedule_notes": [
+      "Gli orari possono variare",
+      "Verificare sempre su sitasudtrasporti.it",
+      "Servizio ridotto nei weekend",
+      "No servizio festivi - verificare"
+    ]
+  },
+  "pricing": {
+    "currency": "EUR",
+    "price_single": 2.00,
+    "ticket_where": "A bordo o edicola"
+  },
+  "alternative_transport": {
+    "taxi": {
+      "duration_min": 20,
+      "price_estimate_eur": "25-35",
+      "availability": "always",
+      "note": "Più affidabile per orari flessibili"
+    }
+  }
+}

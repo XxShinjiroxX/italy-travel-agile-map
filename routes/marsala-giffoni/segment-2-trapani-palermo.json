@@ -1,0 +1,46 @@
+{
+  "segment_id": "SEG-002",
+  "segment_name": "Trapani → Palermo (Optional Alternative)",
+  "transport_type": "train",
+  "operator": "Trenitalia Regionale",
+  "validation": {
+    "sources": [
+      "thetrainline.com",
+      "omio.it",
+      "rome2rio.com"
+    ],
+    "confidence": "medium",
+    "last_verified": "2025-11-29",
+    "note": "Alternative route via Palermo, longer but more connection options"
+  },
+  "route_details": {
+    "distance_km": 104,
+    "duration_min": "120-180",
+    "frequency": "every 2-3 hours",
+    "trains_per_day": "8-10",
+    "direct": false,
+    "changes": 1,
+    "change_at": "Piraineto"
+  },
+  "stops_main": [
+    "Trapani",
+    "Mozia-Birgi",
+    "Marausa",
+    "Paceco",
+    "Salemi",
+    "Gibellina",
+    "Alcamo Diramazione",
+    "Piraineto (CHANGE)",
+    "Partinico",
+    "Carini",
+    "Tommaso Natale",
+    "Isola delle Femmine-Capaci",
+    "Palermo Centrale"
+  ],
+  "pricing": {
+    "currency": "EUR",
+    "price_from": 12.60,
+    "class": "2nd class"
+  },
+  "recommendation": "Use only if Intercity connections from Palermo are more convenient"
+}

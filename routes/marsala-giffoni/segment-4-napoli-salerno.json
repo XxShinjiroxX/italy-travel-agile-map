@@ -1,0 +1,124 @@
+{
+  "segment_id": "SEG-004",
+  "segment_name": "Napoli Centrale → Salerno",
+  "transport_type": "train",
+  "operator": "Trenitalia Regionale/Metropolitano",
+  "validation": {
+    "sources": [
+      "trenitalia.com",
+      "mytrainpal.com",
+      "omio.it",
+      "e656.net"
+    ],
+    "confidence": "very_high",
+    "last_verified": "2025-11-29",
+    "note": "Only needed if arriving at Napoli instead of Salerno"
+  },
+  "route_details": {
+    "distance_km": 56,
+    "duration_min": "34-90",
+    "frequency": "every 15-30 minutes",
+    "trains_per_day": "200+",
+    "direct": true,
+    "service_types": ["Regionale", "Regionale Veloce", "Frecciarossa", "Intercity"]
+  },
+  "stops": [
+    {
+      "order": 1,
+      "station": "Napoli Centrale",
+      "type": "departure"
+    },
+    {
+      "order": 2,
+      "station": "Napoli Piazza Garibaldi",
+      "type": "intermediate"
+    },
+    {
+      "order": 3,
+      "station": "Napoli San Giovanni-Barra",
+      "type": "intermediate"
+    },
+    {
+      "order": 4,
+      "station": "Napoli Gianturco",
+      "type": "intermediate"
+    },
+    {
+      "order": 5,
+      "station": "Napoli Barra",
+      "type": "intermediate"
+    },
+    {
+      "order": 6,
+      "station": "Napoli San Giorgio a Cremano",
+      "type": "intermediate"
+    },
+    {
+      "order": 7,
+      "station": "Portici-Ercolano",
+      "type": "intermediate"
+    },
+    {
+      "order": 8,
+      "station": "Torre del Greco",
+      "type": "intermediate"
+    },
+    {
+      "order": 9,
+      "station": "Torre Annunziata Centrale",
+      "type": "intermediate"
+    },
+    {
+      "order": 10,
+      "station": "Pompei",
+      "type": "intermediate"
+    },
+    {
+      "order": 11,
+      "station": "Scafati",
+      "type": "intermediate"
+    },
+    {
+      "order": 12,
+      "station": "Angri",
+      "type": "intermediate"
+    },
+    {
+      "order": 13,
+      "station": "Pagani",
+      "type": "intermediate"
+    },
+    {
+      "order": 14,
+      "station": "Nocera Inferiore",
+      "type": "intermediate"
+    },
+    {
+      "order": 15,
+      "station": "Cava de' Tirreni",
+      "type": "intermediate"
+    },
+    {
+      "order": 16,
+      "station": "Vietri sul Mare",
+      "type": "intermediate"
+    },
+    {
+      "order": 17,
+      "station": "Salerno",
+      "type": "arrival"
+    }
+  ],
+  "schedule_sample": {
+    "first_train": "05:35",
+    "last_train": "23:46",
+    "peak_frequency": "every 10-15 minutes",
+    "off_peak_frequency": "every 30 minutes"
+  },
+  "pricing": {
+    "currency": "EUR",
+    "price_from": 5.50,
+    "price_avg": 6.26,
+    "class": "2nd class"
+  }
+}

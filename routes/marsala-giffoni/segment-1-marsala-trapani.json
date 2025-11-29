@@ -1,0 +1,74 @@
+{
+  "segment_id": "SEG-001",
+  "segment_name": "Marsala → Trapani",
+  "transport_type": "train",
+  "operator": "Trenitalia Regionale",
+  "validation": {
+    "sources": [
+      "thetrainline.com",
+      "omio.it",
+      "e656.net",
+      "rome2rio.com",
+      "trenitalia.com"
+    ],
+    "confidence": "high",
+    "last_verified": "2025-11-29"
+  },
+  "route_details": {
+    "distance_km": 26,
+    "duration_min": "28-37",
+    "frequency": "every 2 hours",
+    "trains_per_day": 13,
+    "direct": true
+  },
+  "stops": [
+    {
+      "order": 1,
+      "station": "Marsala",
+      "type": "departure",
+      "platform": "1"
+    },
+    {
+      "order": 2,
+      "station": "Strasatti",
+      "type": "intermediate"
+    },
+    {
+      "order": 3,
+      "station": "Mazara del Vallo",
+      "type": "intermediate"
+    },
+    {
+      "order": 4,
+      "station": "Salemi",
+      "type": "intermediate"
+    },
+    {
+      "order": 5,
+      "station": "Trapani",
+      "type": "arrival",
+      "platform": "1-2"
+    }
+  ],
+  "schedule": [
+    {"departure": "04:05", "arrival": "04:38", "duration": "33min", "train_number": "R 21851"},
+    {"departure": "04:55", "arrival": "05:38", "duration": "43min", "train_number": "R 21853"},
+    {"departure": "05:25", "arrival": "05:58", "duration": "33min", "train_number": "R 21857"},
+    {"departure": "06:21", "arrival": "06:55", "duration": "34min", "train_number": "R 21861"},
+    {"departure": "07:13", "arrival": "07:41", "duration": "28min", "train_number": "R 21859"},
+    {"departure": "08:31", "arrival": "09:07", "duration": "36min", "train_number": "R 21867"},
+    {"departure": "09:50", "arrival": "10:35", "duration": "45min", "train_number": "R 22077"},
+    {"departure": "11:49", "arrival": "12:22", "duration": "33min", "train_number": "R 21871"},
+    {"departure": "13:14", "arrival": "13:45", "duration": "31min", "train_number": "R 21875"},
+    {"departure": "14:35", "arrival": "15:05", "duration": "30min", "train_number": "R 21877"},
+    {"departure": "16:24", "arrival": "17:00", "duration": "36min", "train_number": "R 21881"},
+    {"departure": "18:02", "arrival": "18:35", "duration": "33min", "train_number": "R 21885"},
+    {"departure": "18:57", "arrival": "19:34", "duration": "37min", "train_number": "R 21883"}
+  ],
+  "pricing": {
+    "currency": "EUR",
+    "price_from": 3.00,
+    "price_avg": 3.40,
+    "class": "2nd class"
+  }
+}
